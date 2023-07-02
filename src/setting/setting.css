@@ -1,0 +1,80 @@
+.wrapper{
+    flex: 9;
+    flex-direction: column;
+    border: 1px soild black;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.imgsetting{
+    display: flex;
+    align-items: center;
+}
+
+.settingtitle
+.settingicon{
+   font-size: medium;
+   border: 1px solid black;
+   border-radius: 50%;
+}
+
+.settingimg{
+
+ width: 8%;
+ height: 8%;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+.Updatetext{
+
+    font-size: 40px;
+}
+
+.settingtitle{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    color: red;
+}
+
+.settinginput{
+     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-color: #444;
+    border: 0.5px;
+    outline: none;
+}
+
+.settinginput1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 6px;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    outline: none;
+    background-color: none;
+    font-family: cursive;
+}
+
+.settingupdate{
+   
+   display: flex;
+   justify-content: center;
+}
+
+.settingupdate1{
+
+    padding: 7px;
+    font-size: 22px;
+    color: white;
+    background-color: teal;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: cursive;
+}

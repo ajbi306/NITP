@@ -1,0 +1,18 @@
+.homeitems{
+    display: flex;
+    flex-direction: column;
+    background-color: #EFF5F5;
+}
+
+.homepost{
+    display: flex;
+    margin-top: 10px;
+}
+
+.side{
+    flex: 2.8;
+    height: 650px;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}

@@ -1,0 +1,85 @@
+
+.registerform{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px solid black;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+     font-size: 16px;
+    
+}
+
+
+
+.login{
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    /* border: 2px solid black; */
+    height: 60vh;
+    margin-left: 30%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 16px;
+    background-color: #EDEDED;
+    /* background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover; */
+ 
+}
+.emaillogin,.passwordlogin{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    /* background-color: black; */
+    padding: 6px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+
+}
+.loginform>label{
+    font-size: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Dancing Script', cursive;
+}
+.loginbutton{
+    font-size: 16px;
+    padding: 6px;
+    width: 100px;
+    background-color: rgba(118, 2, 2, 0.372);
+    columns: white;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+}
+.login:disabled{
+    cursor: not-allowed;
+}
+
+
+.check{
+   
+   align-self: flex-start;
+   margin-right: 2px;
+   
+}
+
+.msg{
+    margin: auto;
+    margin-top: 5px;
+    color: red;
+}

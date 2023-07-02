@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.register1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    /* border: 2px solid black; */
+    height: 60vh;
+    margin-left: 30%;
+    width: 500px;
+    background-color: #EDEDED;
+
+
+}
+
+.register_form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.name, .mail, .password{
+    
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        padding: 6px;
+        width: 300px;
+        border-radius: 7px;
+        border: none;
+        outline: none;
+        font-family: 'Dancing Script', cursive;
+    
+    
+}
+
+.registerbutton{
+    font-size: 16px;
+    padding: 6px;
+    width: 100px;
+    background-color: rgba(118, 2, 2, 0.372);
+    columns: white;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.label{
+    align-self: flex-start;
+}
